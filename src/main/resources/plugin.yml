@@ -1,0 +1,7 @@
+name: IslandsUUID
+version: ${project.version}
+main: com.github.beastyboo.islandsuuid.IslandsPluginImpl
+api-version: 1.16
+authors: [ BeastyBoo ]
+description: Islands UUID
+website: https://github.com/BeastyBoo
