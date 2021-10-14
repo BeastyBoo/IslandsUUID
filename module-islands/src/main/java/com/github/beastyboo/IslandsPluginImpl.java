@@ -1,8 +1,8 @@
-package com.github.beastyboo.islandsuuid;
+package com.github.beastyboo;
 
-import com.github.beastyboo.islandsuuid.api.IslandsAPI;
-import com.github.beastyboo.islandsuuid.api.IslandsPlugin;
-import com.github.beastyboo.islandsuuid.module.CoreModule;
+import com.github.beastyboo.api.IslandsAPI;
+import com.github.beastyboo.api.IslandsPlugin;
+import com.github.beastyboo.module.CoreModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import org.bukkit.plugin.java.JavaPlugin;

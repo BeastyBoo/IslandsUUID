@@ -1,4 +1,4 @@
-package com.github.beastyboo.islandsuuid.api;
+package com.github.beastyboo.api;
 
 public interface IslandsPlugin {
 

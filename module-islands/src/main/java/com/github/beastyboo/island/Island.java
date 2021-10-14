@@ -1,28 +1,22 @@
-package com.github.beastyboo.islandsuuid.island;
+package com.github.beastyboo.island;
+
+import com.github.beastyboo.DataObject;
 
 import java.util.Objects;
 import java.util.UUID;
 
-public class Island {
+public final class Island implements DataObject {
 
     private final UUID uuid;
     private final String description;
 
-    public Island(UUID uuid, String description) {
+    public Island(UUID uuid) {
         this.uuid = uuid;
-        this.description = description;
-    }
-
-    public Island() {
-        this(UUID.randomUUID(), "Default Description");
+        this.description = "Description yooo.";
     }
 
     public UUID getUuid() {
         return uuid;
-    }
-
-    public String getDescription() {
-        return description;
     }
 
     @Override
