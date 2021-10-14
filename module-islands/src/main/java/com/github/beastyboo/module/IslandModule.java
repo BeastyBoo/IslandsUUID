@@ -1,6 +1,6 @@
-package com.github.beastyboo.islandsuuid.module;
+package com.github.beastyboo.module;
 
-import com.github.beastyboo.islandsuuid.IslandsImpl;
+import com.github.beastyboo.IslandsImpl;
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 

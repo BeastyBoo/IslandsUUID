@@ -1,4 +1,4 @@
-package com.github.beastyboo.islandsuuid.module;
+package com.github.beastyboo.module;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
